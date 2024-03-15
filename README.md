@@ -1,6 +1,36 @@
-# Rule34 posts viewer
-This Python program allows users to interact with the "rule34.xxx" website to explore random photos without the ability to download them. The program starts by fetching a random photo from the website using the provided API endpoint. Upon user interaction, it displays the fetched photo along with its associated tags. Users can navigate through different random photos and view their tags. Additionally, they have the option to return to previously displayed photos.
+# Random Rule34 Image Viewer
 
-The program utilizes the 'requests' library to send HTTP requests to the website and retrieve HTML content, while 'BeautifulSoup' is used for parsing the HTML response. User interactions are managed through a simple command-line interface where users can trigger actions like fetching random photos, viewing them, seeing their tags, and exiting the program. To view the photos, the program opens the default web browser using the 'webbrowser' module.
+This Python program utilizes Tkinter for GUI, Requests for HTTP requests, BeautifulSoup for web scraping, and PIL for image manipulation to create a simple random Rule34 image viewer. Rule34 is a website that hosts explicit content, so please use discretion when using this program.
+# Features:
+Random Image Retrieval:
+Fetches a random image from Rule34 based on user-provided tags.
+Image Display: Displays the fetched image in the GUI.
+Download Functionality: Allows users to download the displayed image.
+Tag Display: Shows the tags associated with the displayed image.
+Back Functionality: Allows users to navigate back to the previously viewed image.
+# Requirements:
+Python 3.x
+Tkinter
+Requests
+BeautifulSoup
+PIL (Python Imaging Library)
+# Usage:
+Run the program.
+Enter tags in the provided entry box and click "Find" to search for a random image.
+Click "Download" to save the displayed image to your device.
+Click "See tags" to display the tags associated with the current image.
+Click "Back" to navigate to the previously viewed image.
+#
+Note:
+	This program accesses explicit content from Rule34. Use responsibly and ensure compliance with relevant laws and regulations.
+Disclaimer:
 
-However, the program intentionally does not support downloading photos to ensure compliance with website policies and copyright regulations. Users are only allowed to view and explore the photos within the program interface. This approach ensures that users can enjoy the content while respecting the terms and conditions set by the website.
+The developer is not responsible for the content accessed or downloaded using this program. Use at your own discretion and risk.
+#
+# Author:
+
+[vaniOK20]
+
+Feel free to modify and improve this program as needed. If you encounter any issues or have suggestions for enhancements, please let me know.
+
+Enjoy responsibly!
