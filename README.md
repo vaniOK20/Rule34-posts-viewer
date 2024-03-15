@@ -1,1 +1,6 @@
 # Rule34-posts-viewer
+This Python program allows users to interact with the "rule34.xxx" website to explore random photos without the ability to download them. The program starts by fetching a random photo from the website using the provided API endpoint. Upon user interaction, it displays the fetched photo along with its associated tags. Users can navigate through different random photos and view their tags. Additionally, they have the option to return to previously displayed photos.
+
+The program utilizes the requests library to send HTTP requests to the website and retrieve HTML content, while BeautifulSoup is used for parsing the HTML response. User interactions are managed through a simple command-line interface where users can trigger actions like fetching random photos, viewing them, seeing their tags, and exiting the program. To view the photos, the program opens the default web browser using the webbrowser module.
+
+However, the program intentionally does not support downloading photos to ensure compliance with website policies and copyright regulations. Users are only allowed to view and explore the photos within the program interface. This approach ensures that users can enjoy the content while respecting the terms and conditions set by the website.
